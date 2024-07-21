@@ -62,3 +62,11 @@ class Solution:
                     fast = fast.next
                 return slow
         return None
+    
+
+# Comment 24-07-21:
+# visualize
+# a, c ,n
+# (2 * (a + c) - a) % n = c
+# (a + c) % n = 0
+# after meeting, send one pointer to head and move both pointers by one step
